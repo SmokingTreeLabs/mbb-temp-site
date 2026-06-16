@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Krita / image editor autosaves
+*.kra
+*.kra~
+*-autosave.kra
+
+# Backup/temp files left by editors
+*.webp~
+*.png~
+*~
+
+# npm lockfile (using pnpm — pnpm-lock.yaml is the canonical lockfile)
+package-lock.json
