@@ -24,7 +24,7 @@ const socialLinks: SocialLink[] = [
     alt: 'Watch our debates live on Twitch!'
   },
   {
-    url: 'https://discord.gg/megabloodbath',
+    url: 'https://discord.com/invite/uuBSsXXDYc',
     icon: '/discord.png',
     alt: 'Join our Discord server!'
   }
@@ -86,7 +86,7 @@ function App() {
               </a>
             ))}
           </div>
-          <ul className='text-h2 glow-black flex flex-col gap-y-12 max-w-2xl'>
+          {/* <ul className='text-h2 glow-black flex flex-col gap-y-12 max-w-2xl'>
             <li className="flex items-start gap-x-3 group cursor-pointer">
               <ArrowRightIcon size="1em" className="text-brand-yellow mt-[0.15em] shrink-0 group-hover:translate-x-1.5 transition-transform" weight="bold" />
               <span>Theist/Atheist Debates</span>
@@ -99,7 +99,7 @@ function App() {
               <ArrowRightIcon size="1em" className="text-brand-yellow mt-[0.15em] shrink-0 group-hover:translate-x-1.5 transition-transform" weight="bold" />
               <span>From deeply credentialed scientists and philosophers to rando internet hobos, all on the same panel</span>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
 
