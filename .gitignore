@@ -36,3 +36,5 @@ Thumbs.db
 
 # npm lockfile (using pnpm — pnpm-lock.yaml is the canonical lockfile)
 package-lock.json
+.vercel
+.env*
